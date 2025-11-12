@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <title>Pomodoro Timer</title>
+  </head>
+      <div class="container">
+        <h1>Track Your Focus Time</h1>
+
+        <div class="time-selection" id="timeSelection">
+          <div class="time-card" data-time="5">5 <span>min</span></div>
+          <div class="time-card" data-time="10">10 <span>min</span></div>
+          <div class="time-card" data-time="15">15 <span>min</span></div>
+          <div class="time-card" data-time="20">20 <span>min</span></div>
+          <div class="time-card active" data-time="25">25 <span>min</span></div>
+          <div class="time-card" data-time="30">30 <span>min</span></div>
+        </div>
+
+        <div class="timer-container">
+          <svg class="timer-svg" width="280" height="280">
+            <circle class="timer-bg" cx="140" cy="140" r="130"></circle>
+            <circle
+              class="timer-progress"
+              cx="140"
+              cy="140"
+              r="130"
+              id="progressCircle"
+            ></circle>
+          </svg>
+          <div class="timer-display">
+            <div class="timer-time" id="timerDisplay">25:00</div>
+            <div class="timer-label" id="timerLabel">ready to focus</div>
+          </div>
+        </div>
+
+        <div class="controls">
+          <button class="control-btn" id="resetBtn" title="Reset">↻</button>
+          <button class="control-btn primary" id="startBtn" title="Start">
+            ▶
+          </button>
+          <button class="control-btn hidden" id="pauseBtn" title="Pause">
+            ❚❚
+          </button>
+        </div>
+
+        <div class="sessions">
+          <div class="sessions-label">Sessions Completed</div>
+          <div class="sessions-count" id="sessionsCount">🍅 0</div>
+        </div>
+      </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
