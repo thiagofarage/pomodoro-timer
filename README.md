@@ -6,9 +6,10 @@ A clean and functional Pomodoro timer to boost your productivity and track your 
 
 # Screenshot
 
-# Features
+![Screenshot]
+(./screenshot.png)
 
-[screenshot.png]
+# Features
 
 - Multiple times presets (5,10,15,20,25,30 minutes)
 - Circular progress indicator with smooth animations
