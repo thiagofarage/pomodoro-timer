@@ -6,8 +6,7 @@ A clean and functional Pomodoro timer to boost your productivity and track your 
 
 # Screenshot
 
-![Screenshot]
-(./screenshot.png)
+![Screenshot](./project-preview.png)
 
 # Features
 
