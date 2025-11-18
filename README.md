@@ -5,8 +5,10 @@
 A clean and functional Pomodoro timer to boost your productivity and track your focus sessions.
 
 # Screenshot
-
 ![Screenshot](./project-preview.png)
+
+# Deploy
+[🔗 Live Demo](https://thiagofarage.github.io/pomodoro-timer)
 
 # Features
 
@@ -14,8 +16,8 @@ A clean and functional Pomodoro timer to boost your productivity and track your 
 - Circular progress indicator with smooth animations
 - Start, Pause and Reset controls
 - Session counter to track completed pomodoros
-- Clean,modern UI inspired by minimalism design
-- Full responsive (works on desktop, tablet and mobile)
+- Clean, modern UI inspired by minimalist design
+- Fullu responsive (works on desktop, tablet and mobile)
 - Alert notification when session completes
 
 # What is Pomodoro Timer?
