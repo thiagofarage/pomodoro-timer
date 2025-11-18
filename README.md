@@ -17,7 +17,7 @@ A clean and functional Pomodoro timer to boost your productivity and track your 
 - Start, Pause and Reset controls
 - Session counter to track completed pomodoros
 - Clean, modern UI inspired by minimalist design
-- Fullu responsive (works on desktop, tablet and mobile)
+- Fully responsive (works on desktop, tablet and mobile)
 - Alert notification when session completes
 
 # What is Pomodoro Timer?
